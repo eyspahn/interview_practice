@@ -1,2 +1,3 @@
-Files related to Udacity's Interviewing Course.
+Files related to Career Cup problems and Udacity's Interview Course.
+
 
