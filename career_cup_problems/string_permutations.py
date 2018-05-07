@@ -1,5 +1,5 @@
 #
-# Write a method to compute all the permutations of a string.
+# Write a (recursive) method to compute all the permutations of a string.
 #
 # From the recursion section in Cracking the Coding Interview.
 # https://stackoverflow.com/questions/13109274/python-recursion-permutations?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
@@ -21,5 +21,5 @@ def rec_get_permutations(s):
 
         for t in z:
             perm_list.append([a]+t)
-            
+
     return perm_list
